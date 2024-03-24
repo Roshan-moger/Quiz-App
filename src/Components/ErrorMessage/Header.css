@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+.title{
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+   
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.divider{
+    margin: 10px;
+    width: 100% ;
+    height: 5px;
+    background-color: rgb(225, 223, 223);
+}

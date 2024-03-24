@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+   
+    margin-bottom: 25px;
+    background-color: rgb(237, 237, 240);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 25px 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background-color: #707070;
+}
+
+.container h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.container button {
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    background: #553f9a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container .index{
+    margin: auto;
+    font-size: 18px;
+     
+}
+.container .correct{
+    background: #d0f8e8;
+    border-color: #00d397;
+
+}
+ .container .wrong{
+    background: #f5d8d8;
+    border-color: #Ff4a4a;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 10px;
+        width: 75%;
+        padding: 15px;
+    }
+
+    .container h3 {
+        font-size: 20px;
+    }
+
+    .container ul li {
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .container button {
+        width: 150px;
+        height: 45px;
+        font-size: 15px;
+    }
+}
